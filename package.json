@@ -1,0 +1,47 @@
+{
+  "name": "@xpf0000/js-data-history",
+  "version": "1.0.0",
+  "author": "250881478@qq.com",
+  "main": "dist/JsDataHistory.js",
+  "unpkg": "src/index.js",
+  "browser": "dist/JsDataHistory.js",
+  "private": false,
+  "description": "Js data history, data change revoke and redo, can set history depth",
+  "scripts": {
+    "build": "webpack ./src/index.js",
+    "lint": "webpack lint"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.6.0",
+    "eslint-loader": "^4.0.2",
+    "vue": "^2.6.12",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "files": [
+    "/dist/*",
+    "/src/*"
+  ],
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xpf0000/js-data-history.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xpf0000/js-data-history/issues"
+  },
+  "homepage": "https://github.com/xpf0000/js-data-history",
+  "keywords": [
+    "js data history"
+  ],
+  "dependencies": {}
+}
